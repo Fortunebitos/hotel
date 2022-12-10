@@ -1,0 +1,141 @@
+.google-map-code {
+  height: inherit;
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+
+  .l-title {
+    display: flex;
+    align-items: center;
+    min-height: 9rem;
+    max-width: 100%;
+    text-align: center;
+    margin: 4rem 7rem;
+
+    .s-name {
+      font-size: 3.5rem;
+      font-weight: 500;
+      color: #7294a8;
+      font-family: cursive;
+    }
+  }
+  .icon-area {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .l-panel {
+    gap: 2rem;
+    min-width: 60%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 3rem 6rem;
+    margin: 0;
+
+    .a-title {
+      margin-top: 0;
+      margin-left: 1rem;
+      font-size: 2.5rem;
+    }
+
+    .a-p1 {
+      font-size: 2rem;
+      margin: 3rem 1rem;
+    }
+    .a-p2 {
+      font-size: 2rem;
+      margin: 1rem 1rem;
+      margin-top: 2rem;
+    }
+    .a-p3 {
+      font-size: 2rem;
+      margin: 1rem 1rem;
+      margin-top: 2rem;
+      span {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 2rem;
+        padding-top: 3rem;
+      }
+    }
+
+    .row-1 {
+      padding: 2px;
+      margin: 2rem;
+      list-style-type: circle;
+
+      .col-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-right: 0.5rem;
+      }
+      .col-2 {
+        align-items: center;
+      }
+    }
+  }
+}
+.t1 {
+  font-size: 2rem;
+  margin: 1rem;
+  list-style-type: disc;
+}
+
+@media only screen and (max-width: 610px) {
+  .google-map-code {
+    .l-title {
+      padding: 0 1rem;
+      margin: 0 1rem;
+
+      .s-name {
+        font-size: 2.3rem;
+        margin-top: 2rem;
+      }
+    }
+
+    .icon-area {
+      padding: 0 1rem;
+      margin: 0;
+      margin-top: 1rem;
+    }
+
+    .l-panel {
+      padding: 0 1rem;
+      margin-top: 5rem;
+
+      .a-title {
+        font-size: 1.8rem;
+      }
+
+      .a-p1 {
+        font-size: 1.8rem;
+        line-height: 25px;
+      }
+
+      .a-p2 {
+        font-size: 1.8rem;
+        line-height: 25px;
+      }
+      .a-p3 {
+        margin: 1rem 1rem;
+        margin: 3rem 0 0 1rem;
+        span {
+          font-size: 1.8rem;
+        }
+        p {
+          font-size: 1.8rem;
+          padding-top: 3rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.sw-wrapper {
+  width: 100%;
+  height: 55rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+
+  .sw-img {
+    min-width: 95%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .sw-wrapper {
+    height: 25rem;
+    margin-top: 10rem;
+  }
+}

@@ -1,0 +1,640 @@
+.main {
+  min-height: 200vh;
+  background-color: ghostwhite;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  .sec-main {
+    background-color: white;
+    width: 70%;
+    min-height: 200vh;
+  }
+  .thir-main {
+    background-color: #fff;
+    width: 100%;
+    min-height: 30rem;
+    box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    .rm-img {
+      height: 25rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .rt-ro {
+      text-decoration: none;
+    }
+
+    h1 {
+      text-align: center;
+      padding-top: 8rem;
+      color: black;
+    }
+  }
+  .fort-main {
+    margin: 5rem auto;
+    width: 90%;
+    min-height: 14rem;
+
+    border-radius: 10px;
+    .fifth-main {
+      background-color: #fafafa;
+      width: 100%;
+      min-height: 14rem;
+
+      padding-left: 2rem;
+      border-radius: 10px;
+
+      p {
+        font-size: 1.5rem;
+        padding-top: 3rem;
+        line-height: 2.5rem;
+      }
+    }
+  }
+  .six-main {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 10px;
+    .sev-main {
+      display: flex;
+      flex-direction: row;
+      background-color: #fafafa;
+      height: inherit;
+      width: 100%;
+      border-radius: 10px;
+      .ac-bk {
+        line-height: 35px;
+        b {
+          font-size: 2rem;
+        }
+        .fc {
+          color: green;
+          font-size: 1.5rem;
+        }
+      }
+      p {
+        padding-top: 3rem;
+        padding-left: 2rem;
+      }
+      span {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+      }
+
+      select {
+        width: 100%;
+        margin: 1rem 1rem 1rem 1rem;
+        height: 3.5rem;
+      }
+
+      .a-roww {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+
+        .eight-main {
+          flex-direction: column;
+          display: flex;
+          margin-top: 3rem;
+          padding-left: 5rem;
+        }
+
+        .nine-main {
+          text-align: left;
+          padding-left: 20rem;
+          height: 25rem;
+          width: inherit;
+          p {
+            font-size: 1.7rem;
+          }
+        }
+
+        .b-columnn {
+          margin: 0;
+          .eight-main1 {
+            flex-direction: column;
+            display: flex;
+            margin-top: 3rem;
+            padding-left: 5rem;
+          }
+
+          .eight-main2 {
+            flex-direction: column;
+            display: flex;
+            margin-top: -2rem;
+            padding-left: 5rem;
+          }
+        }
+      }
+    }
+  }
+  .m-wrapper {
+    height: 50rem;
+    width: 90%;
+    display: flex;
+    margin: 2rem auto;
+
+    .left-panel {
+      flex: 1;
+
+      .a-top {
+        padding-top: 2rem;
+        span {
+          margin-left: 1rem;
+        }
+      }
+      .ac {
+        display: flex;
+        flex-direction: row;
+        background-color: #fafafa;
+        height: 7rem;
+        padding-top: 2rem;
+        margin-top: 1rem;
+        box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+
+        .ac-row {
+          display: flex;
+          flex-direction: row;
+          .amount {
+            margin-left: 8rem;
+          }
+        }
+      }
+
+      .tc-roww {
+        display: flex;
+        flex-direction: row;
+        background-color: #fafafa;
+        min-height: 15rem;
+        margin-top: 1rem;
+        width: 100%;
+        padding-top: 2rem;
+        .tc {
+          display: flex;
+          flex-direction: column;
+
+          .tcc-row {
+            display: flex;
+            flex-direction: row;
+            gap: 167px;
+          }
+          .col-pc {
+            padding-top: 2rem;
+            .price {
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
+
+      .a-center {
+        flex: 1;
+        background-color: #fafafa;
+        height: 8rem;
+        margin-top: 2rem;
+        padding: 2rem 0 0 1rem;
+
+        .amount {
+          margin-left: 12rem;
+        }
+      }
+      .bp {
+        padding-top: 3rem;
+        .title {
+          margin-left: 1rem;
+        }
+      }
+
+      .a-bot {
+        flex-direction: column;
+        display: flex;
+        background-color: #fafafa;
+        min-height: 18rem;
+        margin-top: 1rem;
+        padding: 2rem 0 0 1rem;
+
+        .cancel {
+          margin-top: 2rem;
+        }
+        .pym {
+          margin-top: 2rem;
+        }
+      }
+    }
+
+    .right-panel {
+      flex: 1.6;
+      padding: 2.9rem 1rem 1rem 5rem;
+
+      .b-top {
+        justify-content: space-between;
+        height: 3rem;
+      }
+      .b-bottom {
+        .b-center {
+          background-color: #fafafa;
+          min-height: 45rem;
+
+          .name-row {
+            background-color: #fafafa;
+            padding: 2rem 2rem 2rem 4rem;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            gap: 25px;
+            .b-titles {
+              flex-direction: column;
+              display: flex;
+              width: 100%;
+
+              select {
+                width: 100%;
+                padding: 5px;
+              }
+            }
+            .b-fname {
+              flex-direction: column;
+              display: flex;
+              width: 100%;
+              input {
+                width: 100%;
+                padding: 5px;
+              }
+            }
+            .b-lname {
+              flex-direction: column;
+              display: flex;
+              width: 100%;
+
+              input {
+                width: 100%;
+                padding: 5px;
+              }
+            }
+          }
+          .gmail {
+            background-color: #fafafa;
+            padding: 1rem 2rem 2rem 4rem;
+
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+
+            .g-titles {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              input {
+                width: 100%;
+                padding: 5px;
+              }
+            }
+
+            .g-type {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              input {
+                width: 100%;
+                padding: 5px;
+              }
+            }
+          }
+
+          .cn-number {
+            background-color: #fafafa;
+            padding: 1rem 2rem 2rem 4rem;
+
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+
+            .cn-title {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              .ph-cp {
+                width: 100%;
+                border-color: black;
+                input {
+                  padding: 3px;
+                  border-color: -internal-light-dark(
+                    rgb(118, 118, 118),
+                    rgb(133, 133, 133)
+                  );
+                }
+              }
+            }
+
+            .cn-country {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              .cn-option {
+                width: 100%;
+                padding: 4px;
+              }
+            }
+          }
+          .b-end {
+            flex-direction: row;
+            display: flex;
+            width: 100%;
+            padding: 1rem 2rem 2rem 4rem;
+            .g-ac {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              .g-txt {
+                padding: 10px;
+                height: 10rem;
+              }
+            }
+          }
+        }
+        .py {
+          padding-top: 3rem;
+          margin: 2rem auto;
+        }
+        .a-row {
+          background-color: #fff;
+          width: 100%;
+          max-height: 50rem;
+
+          .a-bot1 {
+            background-color: #fafafa;
+            width: 100%;
+            max-height: 20rem;
+            padding: 1rem 1rem 1rem 1rem;
+            box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 7px 0px -4px rgba(0, 0, 0, 0.75);
+          }
+          .b-bot {
+            background-color: #fafafa;
+            width: 100%;
+            height: 20rem;
+            padding: 1rem 1rem 1rem 1rem;
+            margin-top: 1rem;
+            span {
+              margin-left: 1rem;
+            }
+            .md-bt {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 6rem;
+              width: 18rem;
+              background-color: green;
+              margin: 3.4rem 0 0 1rem;
+              font-size: 2rem;
+              color: white;
+              cursor: pointer;
+
+              &:hover {
+                background-color: #a98433;
+              }
+              .md-ic {
+                height: 2.5rem;
+                width: 20%;
+                margin-left: -1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .main {
+    .sec-main {
+      width: 100%;
+    }
+    .thir-main {
+      min-height: 14rem;
+      width: 100%;
+      .rm-img {
+        height: 12rem;
+        width: 94%;
+        margin: 0 auto;
+      }
+    }
+
+    .fifth-main {
+      margin: 0 auto;
+      height: 17rem;
+    }
+
+    .six-main {
+      .sev-main {
+        display: flex;
+        flex-direction: column;
+        background-color: #fafafa;
+        height: 50rem;
+        width: 100%;
+
+        border-radius: 10px;
+        .ac-bk {
+          line-height: 35px;
+          b {
+            font-size: 2rem;
+          }
+
+          .fc {
+            color: green;
+          }
+        }
+        p {
+          padding-top: 3rem;
+          padding-left: 2rem;
+        }
+        span {
+          margin-top: 2rem;
+          display: flex;
+          flex-direction: column;
+          padding-left: 1rem;
+        }
+
+        select {
+          width: 95%;
+
+          height: 3.5rem;
+        }
+
+        .a-roww {
+          display: flex;
+          flex-direction: column;
+
+          .eight-main {
+            flex-direction: column;
+            display: flex;
+            margin: 0;
+            padding-left: 1rem;
+          }
+
+          .eight-main1 {
+            flex-direction: column;
+            display: flex;
+            margin: 0;
+            padding-left: 1rem;
+          }
+          .nine-main {
+            padding: 0;
+            height: 10rem;
+            background-color: #fafafa;
+          }
+          .b-columnn {
+            margin: 0;
+            .eight-main1 {
+              margin: 0;
+              padding-left: 1rem;
+            }
+
+            .eight-main2 {
+              padding-left: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    .m-wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .left-panel {
+        .a-top {
+          padding-top: 4rem;
+        }
+        .ac {
+          height: 10rem;
+          .ac-row {
+            display: flex;
+            flex-direction: row;
+            .amount {
+              font-size: 1.8rem;
+              margin-left: 2rem;
+            }
+          }
+        }
+
+        .tc-roww {
+          .tc {
+            display: flex;
+            flex-direction: column;
+
+            .tcc-row {
+              display: flex;
+              flex-direction: row;
+              gap: 110px;
+            }
+            .col-pc {
+              padding-top: 3rem;
+            }
+          }
+        }
+        .a-center {
+          flex: 1;
+          background-color: #fafafa;
+          height: 8rem;
+          margin-top: 2rem;
+          padding: 2rem 0 0 1rem;
+
+          .amount {
+            margin-left: 7rem;
+          }
+        }
+      }
+      .right-panel {
+        padding: 0;
+
+        .b-top {
+          margin-top: 3rem;
+          height: 5rem;
+        }
+        .b-bottom {
+          .b-center {
+            height: 80rem;
+
+            .name-row {
+              display: flex;
+              flex-direction: column;
+              padding-left: 1rem;
+            }
+            .gmail {
+              display: flex;
+              flex-direction: column;
+              padding-left: 1rem;
+            }
+
+            .cn-number {
+              display: flex;
+              flex-direction: column;
+              padding-left: 1rem;
+            }
+            .b-end {
+              flex-direction: column;
+              display: flex;
+              padding-left: 1rem;
+              margin: 0;
+              .g-txt {
+                padding: 10px;
+                height: 10rem;
+              }
+            }
+          }
+
+          .a-row {
+            background-color: #fff;
+            width: 100%;
+            max-height: 50rem;
+
+            .a-bot1 {
+              max-height: 30rem;
+            }
+            .b-bot {
+              background-color: #fafafa;
+              width: 100%;
+              height: 25rem;
+              padding: 1rem 1rem 1rem 1rem;
+              margin-top: 1rem;
+
+              span {
+                margin-left: 1rem;
+              }
+              .md-bt {
+                height: 5rem;
+                width: 13rem;
+                font-size: 1.4rem;
+
+                .md-ic {
+                  height: 1.5rem;
+                  width: 20%;
+                  margin-left: -1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

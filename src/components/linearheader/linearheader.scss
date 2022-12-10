@@ -1,0 +1,33 @@
+.lh-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8rem 0 4rem;
+
+  .lh-line {
+    background-color: skyblue;
+    height: 5px;
+    min-width: 15%;
+  }
+  .lh-reserv {
+    color: #7294a8;
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .lh-header {
+    margin: 5rem 0 4rem;
+
+    .lh-reserv {
+      font-size: 2.5rem;
+    }
+    .lh-line {
+      background-color: skyblue;
+      height: 5px;
+      min-width: 30%;
+    }
+  }
+}

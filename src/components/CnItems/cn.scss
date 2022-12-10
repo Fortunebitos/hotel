@@ -1,0 +1,252 @@
+.c-mani {
+  background-color: #ffff;
+  height: 90rem;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  .c-top {
+    background-color: #ffff;
+    width: 90%;
+    height: 10rem;
+    margin: 5rem auto;
+    padding: 4rem 1rem 1rem 3rem;
+    color: #7294a8;
+    font-family: cursive;
+
+    p {
+      font-size: 5rem;
+    }
+  }
+
+  .c-mid {
+    background-color: #ffff;
+    height: 50rem;
+    width: 90%;
+    display: flex;
+    margin: 10rem auto;
+
+    .c-left {
+      flex: 1;
+      background-color: #ffff;
+      height: 50rem;
+
+      .ad-ss {
+        padding: 2rem 1rem 1rem 3rem;
+        background-color: #ffff;
+        height: 7rem;
+        width: 100%;
+
+        .ad-ph {
+          margin-top: 3rem;
+        }
+        .ad-qc {
+          margin-top: 3rem;
+        }
+        .rs-to {
+          width: 100%;
+          margin: 0 auto;
+          margin: 6rem 0 0;
+          text-decoration: none;
+          color: black;
+
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+    .c-right {
+      flex: 1;
+
+      height: 50rem;
+      margin-left: 5rem;
+
+      .b-contain {
+        padding: 0 2rem 2rem 4rem;
+        background-color: #ffff;
+        min-height: 10rem;
+
+        .f-row {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          gap: 25px;
+          padding: 0 2rem 2rem 0;
+          .bc-column {
+            background-color: #ffff;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            select {
+              width: 100%;
+              padding: 5px;
+            }
+          }
+          .ac-column {
+            display: flex;
+            flex-direction: column;
+            width: 500%;
+
+            input {
+              width: 100%;
+              padding: 5px;
+            }
+          }
+        }
+      }
+
+      .gmail {
+        min-height: 4rem;
+        background-color: #ffff;
+        padding: 0 2rem 2rem 0;
+        display: flex;
+        flex-direction: row;
+
+        .gm-column {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          input {
+            width: 100%;
+            padding: 5px;
+          }
+        }
+      }
+
+      .cn-number {
+        padding: 0 2rem 2rem 0;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        .cn-title {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          .ph-cp {
+            width: 100%;
+
+            input {
+              padding: 3px;
+            }
+          }
+        }
+        .cn-country {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          .cn-option {
+            width: 100%;
+            padding: 4px;
+          }
+        }
+      }
+
+      .c-sd {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0 2rem 2rem 0;
+        .c-st {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          select {
+            padding: 5px;
+          }
+        }
+      }
+      .cm-send {
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        padding: 0 2rem 2rem 0;
+        .cm {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          .cn-txt {
+            padding: 10px;
+            height: 10rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .c-mani {
+    height: 110rem;
+    font-size: 1.6rem;
+    .c-top {
+      margin: 4rem auto;
+      padding: 0;
+      max-height: 3rem;
+      p {
+        font-size: 2rem;
+      }
+    }
+
+    .c-mid {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      height: 70rem;
+      padding-top: 2rem;
+
+      .c-left {
+        margin-left: -1rem;
+        padding: 0;
+
+        width: 90%;
+        .ad-ss {
+          height: 24rem;
+        }
+      }
+      .c-right {
+        width: 100%;
+        margin: 8rem auto;
+
+        .b-contain {
+          margin: 0;
+          padding-left: 2rem;
+          background-color: #ffff;
+
+          .f-row {
+            display: flex;
+            flex-direction: column;
+            padding: 3rem 2rem 2rem 0;
+            .bc-column {
+              flex-direction: column;
+              display: flex;
+            }
+            .ac-column {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+
+              input {
+                width: 100%;
+                padding: 5px;
+              }
+            }
+          }
+        }
+
+        .cn-number {
+          display: flex;
+          flex-direction: column;
+
+          .cn-title {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

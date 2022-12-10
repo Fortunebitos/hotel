@@ -1,0 +1,109 @@
+.cf-sot {
+  height: 20vh;
+  background-color: #f5f5f5;
+  margin-top: 13rem;
+  width: 100%;
+  padding-left: 15rem;
+
+  .cf-main {
+    width: 100%;
+    margin: 1rem 1rem 1rem 0;
+    gap: 15rem;
+    font-size: 2rem;
+    color: black;
+  }
+
+  .rm-img {
+    height: 10vh;
+    width: 30%;
+    margin: 0.5rem 1rem 1rem 4rem;
+  }
+  .cf-soto {
+    font-size: 1.5rem;
+    padding: 3rem 1rem 2rem 10rem;
+    color: black;
+  }
+
+  .cf-copyt {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: red;
+    }
+  }
+  .cf-fb {
+    margin-right: 2rem;
+    background-color: black;
+
+    color: white;
+    height: 5vh;
+  }
+  .copy-right {
+    font-size: 1.2rem;
+    color: black;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .cf-sot {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    margin: auto;
+    width: 100%;
+    margin-top: 10rem;
+    .cf-main {
+      display: flex;
+      flex-direction: column;
+      color: black;
+      gap: 2rem;
+    }
+
+    .rm-img {
+      width: 25%;
+      max-height: 13vh;
+      margin: 0;
+    }
+    .cf-soto {
+      display: flex;
+      flex-direction: column;
+    }
+    .cf-copy {
+      margin-left: 5rem;
+    }
+    .cf-fb {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 1rem 1rem 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .cf-sot {
+    padding: 0;
+
+    .rm-img {
+      height: 25vh;
+      width: 50%;
+      padding: 1rem 1rem 0 1rem;
+      margin-top: 1rem;
+    }
+    .cf-soto {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 2rem 2rem 0 0;
+    }
+    .cf-copyt {
+      display: flex;
+      flex-direction: column;
+      font-size: 2rem;
+      color: black;
+      margin-left: 5rem;
+    }
+    .cf-fb {
+      margin-left: 3rem;
+    }
+  }
+}

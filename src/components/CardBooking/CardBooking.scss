@@ -1,0 +1,213 @@
+.cb-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -6rem;
+  margin-bottom: 5rem;
+
+  .bt-reserve {
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 5rem;
+    border-bottom: 5px solid orange;
+    font-family: cursive;
+    color: skyblue;
+  }
+}
+
+.bt-wrapper {
+  width: 100%;
+  min-height: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20rem;
+  padding: 0 3rem;
+
+  .bt-booking {
+    min-width: 30%;
+    background: rgba(0, 0, 0, 0.7)
+      url("https://res.cloudinary.com/dkg6aexz0/image/upload/v1667972204/visualsofdana-T5pL6ciEn-I-unsplash_brgkqr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-blend-mode: darken;
+    margin-right: 2rem;
+    cursor: pointer;
+
+    .x-content {
+      margin-left: 4rem;
+      width: 100%;
+      margin-bottom: 3rem;
+
+      .x-title {
+        font-size: 4rem;
+        color: #fff;
+        font-weight: 500;
+        font-family: "Alkalami", serif;
+        letter-spacing: 1px;
+      }
+
+      .x-price {
+        color: #fff;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        font-size: 1.5rem;
+      }
+
+      .ft-btn {
+        background-color: white;
+        margin-bottom: 3rem;
+        max-width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+        height: 4rem;
+
+        .c-lo {
+          text-decoration: none;
+        }
+        .ft-label {
+          font-size: 1rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          color: black;
+          letter-spacing: 1px;
+          font-family: "Nunito", sans-serif;
+        }
+
+        &:hover {
+          background-color: skyblue;
+          right: -20px;
+          transition: 0.5s;
+          cursor: pointer;
+
+          .cb-label {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .x-booking2 {
+    min-width: 30%;
+    background: rgba(0, 0, 0, 0.7)
+      url("https://i.ibb.co/VpYcxz0/photo-1598928636135-d146006ff4be-ixlib-rb-1-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: darken;
+    &:hover {
+      cursor: pointer;
+    }
+
+    .x-content2 {
+      margin-left: 4rem;
+      width: 100%;
+      margin-top: 14rem;
+
+      .x-title2 {
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 500;
+        font-family: "Alkalami", serif;
+        letter-spacing: 1px;
+      }
+
+      .x-price2 {
+        color: #fff;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        font-size: 1.5rem;
+      }
+
+      .ft-btn2 {
+        background-color: white;
+        margin-bottom: 3rem;
+        max-width: 10rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+
+        .c2-lo {
+          text-decoration: none;
+        }
+        .ft-label2 {
+          font-size: 1rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          color: black;
+          letter-spacing: 1px;
+          font-family: "Nunito", sans-serif;
+        }
+
+        &:hover {
+          background-color: skyblue;
+          transition: 0.5s;
+          cursor: pointer;
+          cursor: pointer;
+
+          .cb-label2 {
+            color: #fff;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .cb-main {
+    flex-direction: column;
+    display: flex;
+    margin: 0rem;
+
+    .bt-reserve {
+      flex-direction: column;
+      display: flex;
+      margin: 3rem 0;
+      font-size: 3.5rem;
+    }
+  }
+
+  .bt-wrapper {
+    flex-direction: column;
+    display: flex;
+    padding: 0 2rem;
+    height: inherit;
+
+    .bt-booking {
+      width: 100%;
+      margin-bottom: 2rem;
+
+      .x-content {
+        .x-title {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    .x-booking2 {
+      .x-content2 {
+        .x-title2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}

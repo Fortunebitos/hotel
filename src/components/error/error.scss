@@ -1,0 +1,40 @@
+.fort-bitos {
+  padding: 1rem 1rem;
+  width: 100%;
+
+  line-height: 13px;
+  max-height: 50vh;
+  text-align: left;
+
+  .cancel {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+    .err-cl {
+      font-size: 1rem;
+    }
+  }
+  .in {
+    display: flex;
+    flex-direction: row;
+  }
+  .out {
+    display: flex;
+    flex-direction: row;
+  }
+  .other {
+    display: flex;
+    flex-direction: row;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+
+    b {
+      font-size: 0.6rem;
+      margin-right: 0.5rem;
+    }
+  }
+}

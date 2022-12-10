@@ -1,0 +1,88 @@
+.logo {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.main-cl {
+  color: #7294a8;
+  font-family: cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5rem;
+  width: 100%;
+  height: auto;
+}
+
+.for-met {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+
+  .ev-ts {
+    font-size: 2rem;
+    margin: 5rem 1rem 1rem 1rem;
+  }
+
+  .t1-ceb {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .t2 {
+    font-size: 2rem;
+    margin: 1rem;
+    list-style-type: disc;
+  }
+  .t1 {
+    font-size: 2rem;
+    margin: 4rem 0 0 -2rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .logo {
+  }
+
+  .main-cl {
+    .fc-sot {
+      font-size: 2.5rem;
+      padding: 0;
+      margin: 1rem 2rem;
+      text-align: left;
+    }
+  }
+
+  .for-met {
+    padding: 0 1rem;
+    margin: 0 1rem;
+    text-align: left;
+    margin-top: 4rem;
+
+    .ev-ts {
+      font-size: 1.8rem;
+      font-weight: 500;
+      text-align: left;
+    }
+
+    .t1-ceb {
+      font-size: 1.8rem;
+      text-align: left;
+    }
+
+    .fc-nav {
+      padding: 0 0;
+    }
+    .t2 {
+      font-size: 1.8rem;
+    }
+    .t1 {
+      font-size: 1.8rem;
+
+      margin: 0 0 0 1rem;
+    }
+  }
+}

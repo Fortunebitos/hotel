@@ -1,0 +1,60 @@
+.sh-title {
+  min-width: 14rem;
+  min-height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  padding-bottom: 1rem;
+  margin: 10rem 0 3rem 4rem;
+
+  .sh-soto {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #7294a8;
+    font-family: cursive;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.sh-title2 {
+  min-width: 14rem;
+  min-height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  border-bottom: 1px solid skyblue;
+  padding-bottom: 1rem;
+  margin: 9rem 0 3rem 4rem;
+
+  .sh-soto {
+    font-weight: 500;
+    color: #7294a8;
+    font-family: "Great Vibes", cursive;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .sh-title {
+    width: 100%;
+    margin: 6rem 0 1rem;
+    text-align: center;
+
+    .sh-soto {
+      font-size: 2.8rem;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+
+  .sh-title2 {
+    width: 100%;
+    margin: 6rem 0 1rem;
+    text-align: center;
+
+    .sh-soto {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+}

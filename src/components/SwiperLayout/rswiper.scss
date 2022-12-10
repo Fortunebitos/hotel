@@ -1,0 +1,49 @@
+.rs-pe {
+  width: 100%;
+  height: auto;
+
+  .rs-fo {
+    font-size: 3rem;
+    font-weight: 500;
+    color: black;
+    margin-left: 5rem;
+  }
+
+  .mySwiper {
+    margin: 2rem 10rem 10rem 5rem;
+
+    .rs-ss {
+      height: 30rem;
+      width: 100%;
+
+      .rs-img {
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+          cursor: pointer;
+
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 810px) {
+  .rs-pe {
+    margin: 0;
+    .rs-fo {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-left: 1rem;
+    }
+
+    .mySwiper {
+      width: 95%;
+      margin: 2rem 10rem 10rem 1rem;
+    }
+  }
+}

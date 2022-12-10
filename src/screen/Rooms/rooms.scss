@@ -1,0 +1,187 @@
+.rs-cb {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+
+  .rs-sc {
+    min-height: 40rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .rs-tr {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 0 7rem;
+
+    .rs-p {
+      font-size: 3.5rem;
+      font-weight: 500;
+      color: #7294a8;
+      font-family: cursive;
+      margin: 3rem 2rem;
+      padding: 0;
+    }
+
+    .rs-rm {
+      font-size: 1.8rem;
+      margin: 3rem 2rem;
+      text-decoration: none;
+      color: skyblue;
+      justify-content: space-around;
+      padding: 0;
+    }
+
+    .rs-rm:hover {
+      border-bottom: 2px solid skyblue;
+      padding: 0;
+    }
+  }
+
+  .rs-ft {
+    min-height: 100vh;
+    margin: 3rem 2rem;
+    line-height: 1.6;
+
+    .rs-fo {
+      font-size: 2rem;
+    }
+  }
+
+  .rs-fh {
+    margin: 3rem 0rem;
+
+    .rs-es {
+      font-size: 2rem;
+    }
+  }
+
+  .rs-nav {
+    margin-left: 2rem;
+    margin: 2rem 0;
+
+    .t1 {
+      font-size: 2rem;
+      line-height: 17px;
+      margin: 1rem 0 0 -0.1rem;
+    }
+  }
+
+  .tablink {
+    background-color: #d9d9d9;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+
+  .tablink:hover {
+    background-color: skyblue;
+  }
+  .rm-fo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rm-column {
+    flex-direction: row;
+    display: flex;
+
+    .rm-row {
+      font-size: 3rem;
+      margin: 8rem 1rem 1rem 10rem;
+    }
+
+    .rm-img {
+      width: 536px;
+      height: 308px;
+      padding: 3rem 1rem 1rem 4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .rs-cb {
+    .rs-sc {
+    }
+
+    .rs-tr {
+      margin: 0;
+      direction: ltr;
+      padding-left: 0;
+
+      .rs-p {
+        text-align: center;
+        font-size: 2.3rem;
+      }
+
+      .rs-rm {
+        font-size: 2rem;
+      }
+
+      .rs-rm:hover {
+      }
+    }
+
+    .rs-ft {
+      .rs-fo {
+        font-size: 1.8rem;
+      }
+    }
+
+    .rs-fh {
+      .rs-es {
+        font-size: 1.8rem;
+      }
+    }
+
+    .rs-nav {
+      display: flex;
+      flex-direction: column;
+
+      .t1 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+      }
+    }
+
+    .tablink {
+      margin: 5px;
+      width: 100%;
+    }
+
+    .tablink:hover {
+    }
+    .rm-fo {
+    }
+    .rm-container {
+    }
+
+    .rm-column {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 1rem 1rem 0;
+      padding: 0;
+
+      .rm-row {
+        font-size: 3rem;
+        margin: 1rem 1rem 1rem 3.5rem;
+      }
+
+      .rm-img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+  }
+}

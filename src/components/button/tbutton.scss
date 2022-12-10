@@ -1,0 +1,144 @@
+.book-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.6rem;
+  min-width: 10rem;
+
+  .btn-book {
+    min-width: 14rem;
+    clip-path: polygon(10% 0, 92% 0, 100% 50%, 91% 100%, 8% 100%, 0% 50%);
+    min-height: 4.5rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9);
+    margin: 10rem 1rem 1rem 1rem;
+
+    span {
+      color: #fff;
+      font-weight: 400;
+      font-size: 1.8rem;
+    }
+
+    &:hover {
+      background-color: #037086;
+      cursor: pointer;
+      cursor: pointer;
+    }
+  }
+}
+
+.book-wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 20rem;
+  background-color: #081d35;
+  margin: 4rem 1rem 1rem 3rem;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0f3561;
+  }
+}
+
+.book-wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 20rem;
+  background-color: #a98433;
+  margin: 4rem auto;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0f3561;
+  }
+}
+.book-wrapper3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 15rem;
+  background-color: green;
+  margin: 2rem 0 0 5rem;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  -webkit-clip-path: polygon(20% 1%, 98% 0, 83% 100%, 0% 100%);
+  clip-path: polygon(20% 1%, 98% 0, 83% 100%, 0% 100%);
+}
+
+.book-wrapper5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 15rem;
+  background-color: green;
+  margin: 2rem 0 0;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #a98433;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .book-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.6rem;
+    min-width: 10rem;
+
+    .btn-book {
+      min-width: 14rem;
+      clip-path: polygon(10% 0, 92% 0, 100% 50%, 91% 100%, 8% 100%, 0% 50%);
+      min-height: 4.5rem;
+      background-color: green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2px;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9);
+      margin: 10rem 1rem 1rem 1rem;
+
+      span {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.8rem;
+      }
+
+      &:hover {
+        background-color: #037086;
+        cursor: pointer;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .book-wrapper1 {
+    margin: 4rem 0 0 1rem;
+    height: 4rem;
+    width: 12rem;
+  }
+
+  .book-wrapper2 {
+    height: 4rem;
+    width: 12rem;
+    margin: 4rem 0 0 4rem;
+  }
+}

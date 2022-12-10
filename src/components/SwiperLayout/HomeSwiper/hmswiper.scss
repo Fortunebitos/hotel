@@ -1,0 +1,32 @@
+.hm-main1 {
+  font-size: 1.5rem;
+
+  .swipers {
+    height: 38rem;
+
+    .hm-a {
+      p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        &:hover {
+          cursor: pointer;
+          color: red;
+        }
+      }
+
+      .c2-lo {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .hm-main1 {
+    font-size: 1.5rem;
+
+    .swipers {
+      height: 32rem;
+    }
+  }
+}

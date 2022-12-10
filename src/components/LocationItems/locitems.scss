@@ -1,0 +1,12 @@
+.t1 {
+  font-size: 2rem;
+  margin: 1rem;
+  list-style-type: disc;
+}
+@media only screen and (max-width: 610px) {
+  .t1 {
+    font-size: 1.8rem;
+    margin: 0;
+    padding-top: 1rem;
+  }
+}

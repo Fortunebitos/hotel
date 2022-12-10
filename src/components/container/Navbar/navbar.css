@@ -1,0 +1,102 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+.nav_link {
+  text-decoration: none;
+  color: black;
+}
+.nav_link:hover {
+  color: black;
+  border-bottom: 4px solid orange;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 9vh;
+  min-width: 100%;
+  background: white;
+  position: fixed;
+  z-index: 99999;
+  border-bottom: 2px solid gray;
+}
+.nav nav_link:hover {
+  border-bottom: 2px solid blue;
+  color: white;
+}
+.nav_brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3vh;
+  color: black;
+}
+
+.rm-img1 {
+  height: 10rem;
+  width: 100%;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  font-size: 2rem;
+}
+.nav_toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: black;
+  transition: 0.4s ease-in;
+}
+.nav_toggler {
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .nav_toggler {
+    display: block;
+  }
+  .nav_menu {
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    width: 30rem;
+    min-height: 70vh;
+    background: white;
+    flex-direction: column;
+    transform: translate(100%);
+    transition: 0.5s ease-in;
+    padding: 4rem 2rem;
+  }
+  .rm-img1 {
+    height: 10rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2rem;
+  }
+}
+
+/* Nav Active Clas */
+.nav_active {
+  transform: translate(0);
+}
+
+/* Toggler Animation */
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}

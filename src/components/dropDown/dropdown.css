@@ -1,0 +1,38 @@
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  height: inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content .room-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 8px 2px;
+}
+
+.dropdown-content .room-wrapper .l-rooms {
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.dropdown-content .room-wrapper .l-rooms:hover {
+  border-bottom: 4px solid orange;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

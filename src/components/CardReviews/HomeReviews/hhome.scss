@@ -1,0 +1,65 @@
+.c-fort {
+  margin-top: 1rem;
+  .c-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    .c-pro {
+      height: 7rem;
+      width: 7rem;
+      border-radius: 50%;
+    }
+
+    .c-name {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 1rem;
+
+      .name {
+        font-size: 2.3rem;
+        font-weight: 500;
+      }
+
+      .time {
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+      .c-fort {
+        display: flex;
+        flex-direction: column;
+        line-height: 4rem;
+      }
+      .c-bottom {
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .c-card {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin: 0;
+    padding: 1rem 20px;
+    .c-top {
+      .c-pro {
+      }
+
+      .c-name {
+        .name {
+          font-size: 2rem;
+        }
+
+        .time {
+          font-size: 1.5rem;
+        }
+        .c-fort {
+        }
+      }
+    }
+  }
+}
