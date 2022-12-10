@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="root">
         <Fortune>
-          <Mimis path="/" element={<Home />} />
+          <Mimis path="hotel/" element={<Home />} />
           <Mimis path="/" element={<Home />} />
           <Mimis path="/home" element={<Home />} />
           <Mimis path="/rooms" element={<Rooms />} />

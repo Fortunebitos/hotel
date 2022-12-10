@@ -3,7 +3,7 @@ import DropDown from "../components/dropDown/DropDown";
 const MenuItems = [
   {
     title: "HOME",
-    path: "/",
+    path: "/hotel",
   },
   {
     title: <DropDown />,
